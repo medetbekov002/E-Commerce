@@ -1,4 +1,4 @@
-package com.example.kelineyt.viewmodel
+package com.example.e_commerce.viewmodel
 
 import android.app.Application
 import android.graphics.Bitmap
@@ -6,8 +6,8 @@ import android.net.Uri
 import android.provider.MediaStore
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.kelineyt.KelineApplication
-import com.example.kelineyt.data.User
+import com.example.e_commerce.App
+import com.example.e_commerce.data.User
 import com.example.e_commerce.util.RegisterValidation
 import com.example.e_commerce.util.Resource
 import com.example.e_commerce.util.validateEmail
@@ -89,7 +89,7 @@ class UserAccountViewModel @Inject constructor(
         viewModelScope.launch {
             try {
                 val imageBitmap = MediaStore.Images.Media.getBitmap(
-                    getApplication<KelineApplication>().contentResolver,
+                    getApplication<App>().contentResolver,
                     imageUri
                 )
                 val byteArrayOutputStream = ByteArrayOutputStream()

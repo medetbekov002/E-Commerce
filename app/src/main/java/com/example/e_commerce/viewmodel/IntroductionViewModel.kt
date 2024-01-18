@@ -3,10 +3,8 @@ package com.example.e_commerce.viewmodel
 import android.content.SharedPreferences
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.e_commerce.R
+import com.example.e_commerce.R.id.action_introductionFragment_to_accountOptionsFragment
 import com.example.e_commerce.util.Constants.INTRODUCTION_KEY
-import com.example.kelineyt.R
-import com.example.kelineyt.util.Constants.INTRODUCTION_KEY
 import com.google.firebase.auth.FirebaseAuth
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -25,7 +23,7 @@ class IntroductionViewModel @Inject constructor(
 
     companion object{
         const val SHOPPING_ACTIVITY = 23
-        const val ACCOUNT_OPTIONS_FRAGMENT = R.id.action_introductionFragment_to_accountOptionsFragment
+        const val ACCOUNT_OPTIONS_FRAGMENT = action_introductionFragment_to_accountOptionsFragment
     }
 
     init {

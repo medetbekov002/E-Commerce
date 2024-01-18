@@ -1,8 +1,8 @@
-package com.example.kelineyt.viewmodel
+package com.example.e_commerce.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.kelineyt.data.User
+import com.example.e_commerce.data.User
 import com.example.e_commerce.util.Resource
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore

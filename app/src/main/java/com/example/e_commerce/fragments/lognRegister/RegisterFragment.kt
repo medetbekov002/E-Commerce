@@ -14,7 +14,7 @@ import com.example.e_commerce.data.User
 import com.example.e_commerce.databinding.FragmentRegisterBinding
 import com.example.e_commerce.util.RegisterValidation
 import com.example.e_commerce.util.Resource
-import com.example.kelineyt.viewmodel.RegisterViewModel
+import com.example.e_commerce.viewmodel.RegisterViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

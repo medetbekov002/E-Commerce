@@ -1,14 +1,13 @@
-package com.example.kelineyt.viewmodel
+package com.example.e_commerce.viewmodel
 
 import androidx.lifecycle.ViewModel
+import com.example.e_commerce.data.User
+import com.example.e_commerce.util.Constants.USER_COLLECTION
 import com.example.e_commerce.util.RegisterFieldsState
 import com.example.e_commerce.util.RegisterValidation
 import com.example.e_commerce.util.Resource
 import com.example.e_commerce.util.validateEmail
 import com.example.e_commerce.util.validatePassword
-import com.example.kelineyt.data.User
-import com.example.kelineyt.util.*
-import com.example.kelineyt.util.Constants.USER_COLLECTION
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import dagger.hilt.android.lifecycle.HiltViewModel

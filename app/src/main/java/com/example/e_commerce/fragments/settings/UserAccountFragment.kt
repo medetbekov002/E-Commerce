@@ -20,7 +20,7 @@ import com.example.e_commerce.data.User
 import com.example.e_commerce.databinding.FragmentUserAccountBinding
 import com.example.e_commerce.dialog.setupBottomSheetDialog
 import com.example.e_commerce.util.Resource
-import com.example.kelineyt.viewmodel.UserAccountViewModel
+import com.example.e_commerce.viewmodel.UserAccountViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 

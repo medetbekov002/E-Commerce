@@ -3,7 +3,7 @@ package com.example.e_commerce.di
 import android.app.Application
 import android.content.Context.MODE_PRIVATE
 import com.example.e_commerce.firebase.FirebaseCommon
-import com.example.kelineyt.util.Constants.INTRODUCTION_SP
+import com.example.e_commerce.util.Constants.INTRODUCTION_SP
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore

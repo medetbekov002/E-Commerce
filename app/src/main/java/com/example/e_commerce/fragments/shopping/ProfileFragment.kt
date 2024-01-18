@@ -19,7 +19,7 @@ import com.example.e_commerce.activities.LoginRegisterActivity
 import com.example.e_commerce.databinding.FragmentProfileBinding
 import com.example.e_commerce.util.Resource
 import com.example.e_commerce.util.showBottomNavigationView
-import com.example.kelineyt.viewmodel.ProfileViewModel
+import com.example.e_commerce.viewmodel.ProfileViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 

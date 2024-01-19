@@ -13,7 +13,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
-import com.example.e_commerce.BuildConfig
+import com.example.e_commerce.util.BuildConfig
 import com.example.e_commerce.R
 import com.example.e_commerce.activities.LoginRegisterActivity
 import com.example.e_commerce.databinding.FragmentProfileBinding

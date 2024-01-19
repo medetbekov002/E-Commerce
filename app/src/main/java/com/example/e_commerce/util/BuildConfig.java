@@ -1,4 +1,4 @@
-package com.example.e_commerce;
+package com.example.e_commerce.util;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
